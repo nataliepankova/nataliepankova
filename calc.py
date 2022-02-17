@@ -6,10 +6,6 @@ def arithmetic_arranger(problems, solve = False):
   lines = ''
   sumx = ''
   for problem in problems:
-    #if re.search("[^\s0-9.+-]", problem):
-    #  if re.search("/", problem) or re.search("*", problem):
-    #    return "Error: Operator must be '+' or '-'."
-    #  return 'Error: Numbers must only contain digits.'
     fn = problem.split()[0]
     op = problem.split()[1]
     sn = problem.split()[2]
